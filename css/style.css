@@ -1,0 +1,39 @@
+body{
+    height:100%;
+}
+slider{
+    height: 50%;
+}
+
+.portada{
+    
+}
+
+
+.principal{
+    height: 25%;
+}
+
+.principal img{
+    
+    
+}
+.secundario{
+    margin:10px 0;
+    height: 15%;
+}
+
+.secundario img{
+   
+}
+
+footer{
+    color:white;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.miniatura{
+    padding: 0px;
+}
