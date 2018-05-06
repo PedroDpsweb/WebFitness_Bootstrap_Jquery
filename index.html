@@ -11,6 +11,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <!--FUENTES-->
+  <link href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/js.js"></script>
+  
+  
 </head>
 
 <body>
@@ -33,9 +42,9 @@
                         Como empezar
                       </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Dieta</a>
-            <a class="dropdown-item" href="#">Entrenamiento</a>
-            <a class="dropdown-item" href="#">Descanso</a>
+            <a class="dropdown-item" href=not-comida.html>Dieta</a>
+            <a class="dropdown-item" href="not-entrenamiento.html">Entrenamiento</a>
+            <a class="dropdown-item" href="not-cardio.html">Descanso</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Trucos</a>
           </div>
@@ -51,6 +60,7 @@
     </div>
   </nav>
 
+  <div id="slider">
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
@@ -67,6 +77,17 @@
       </div>
     </div>
   </div>
+
+  
+  <div id="popup" class="text-center"> 
+    <p>Desliza</p>
+    <p>para</p>
+    <p>ver mas</p>
+    <i class="fa fa-arrow-down"></i>
+    </div>
+
+  </div>
+    
 
   <div class="container-fluid principal">
     <div class="portada text-center">
@@ -116,7 +137,7 @@
 
 
     <div class="row ">
-      <div class="col-sm-4 miniatura" style="background-color:yellow; ">
+      <div class="col-sm-4 miniatura">
 
         <img class="img-fluid " src="img/n3.jpg " class="rounded " alt="Cinque Terre ">
       </div>
@@ -131,7 +152,7 @@
 
   </div>
 
-  <div class="masnoticias"></div>
+  <div id="masnoticias"><p class="ejemplo"></p></div>
 
   <div class="row">
     <div class="col-sm-12 text-center">
@@ -142,7 +163,7 @@
   </div>
 
 
-  <div class="text-center m-2"><button type="button " class="btn btn-primary btn-lg ">Cargar noticias</button></div>
+  <div class="text-center m-2"><button type="button" class="btn btn-primary btn-lg cargamas">Cargar noticias</button></div>
 
   <footer class="footer ">
     <p>Powered by <a href="www.dpsweb.es ">DPSWeb</a></p>
@@ -152,9 +173,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
-    crossorigin="anonymous "></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
     crossorigin="anonymous "></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
     crossorigin="anonymous "></script>

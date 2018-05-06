@@ -5,6 +5,18 @@ slider{
     height: 50%;
 }
 
+#popup{
+    float: left;
+    color:white;
+    font-size: 50px;
+    position: absolute;
+    top:40%;
+    left:42%;
+    font-family: 'Sonsie One', cursive;
+
+    
+}
+
 .portada{
     
 }
@@ -35,5 +47,5 @@ footer{
 }
 
 .miniatura{
-    padding: 0px;
+    
 }
