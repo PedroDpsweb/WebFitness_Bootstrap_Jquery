@@ -1,6 +1,6 @@
 body{
     height:100%;
-    background-color: #343a40;
+    background-color: #25292d;
 }
 slider{
     height: 50%;
@@ -60,5 +60,10 @@ footer{
     height: 80%;
     padding:10px;
    
+}
+
+.noticia{
+    color: white;
+    margin: 20px 0;
 }
 
