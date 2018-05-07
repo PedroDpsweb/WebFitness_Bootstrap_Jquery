@@ -1,5 +1,6 @@
 body{
     height:100%;
+    background-color: #343a40;
 }
 slider{
     height: 50%;
@@ -18,7 +19,12 @@ slider{
 }
 
 .portada{
-    
+    margin:30px;
+    color: white;
+}
+
+.publi{
+    margin: 10px 0;
 }
 
 
@@ -49,3 +55,10 @@ footer{
 .miniatura{
     
 }
+
+.desc{
+    height: 80%;
+    padding:10px;
+   
+}
+
