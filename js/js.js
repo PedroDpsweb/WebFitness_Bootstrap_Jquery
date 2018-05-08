@@ -1,21 +1,33 @@
 $(function () {
 
     $(".cargamas").click(function () {
-        pintar();
-        // $.getJSON( "https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/3754ebc6/json/jsonprueba.json", function( jsonObject  ) {
-        //    pintarjson(jsonObject );
-        //});
+
+        $.getJSON("https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/d0ab4a08/json/json.json", function (json) {
+            
+        console.log(json);
+        $.each(json, function (i, noticia) {
+                var titulo=noticia.titulo;
+                alert(titulo);
+                var imagen=noticia.imagen;
+                var desc=noticia.descripcion;
+
+                $("#masnoticias").append('"<div class="row "><div class="col-sm-4 miniatura"><a href="not-cardio.html"><img class="img-fluid " src='+imagen+' class="rounded " alt="Cinque Terre "></a></div><div class="col-sm-8" style="background-color:silver; "><div class="desc"><h2>No todo es cardio</h2><p>Descripcion perso.</p></div><div class="row"><div class="col-sm-4 text center"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></i></a><a href="#"><i class="fab fa-twitter-square fa-2x"></i></i></a><a href="#"><i class="fab fa-google-plus-square fa-2x"></i></i></a></div></div></div></div>"')
+
+
+;
+
+                
+
+            });
+        });
 
         var popup = $('#popup');
-        popup.css({ 
-            'left': ($(window).width() / 2 - $(popup).width() / 2) + 'px', 
+        popup.css({
+            'left': ($(window).width() / 2 - $(popup).width() / 2) + 'px',
             'top': ($(window).height() / 2 - $(popup).height() / 2) + 'px'
         });
-        
+
     });
-
-
-
 });
 
 
@@ -23,21 +35,10 @@ $(function () {
 
 
 
+/*function pintar(json) {
+    $.each( json, function( i, obj ) {
+    $("#masnoticias").append(obj.noticias.noticia.titulo)
+    
+})};*/
 
 
-
-
-function pintar() {
-    //$.each( json, function( i, obj ) {
-    $("#masnoticias").append('<div class="container-fluid secundario"><div class="row"><div class="col-sm-4 style"><img class="img-fluid" src="img/n2.jpg" class="rounded" alt="Cinque Terre"></div><div class="col-sm-8" style="background-color:pink; "><h2></h2><p></p></div></div></div>')
-    // }); 
-}
-/*function pintarjson(json){
-    $.each( json, function( i,empleado ) {
-        var prueba= empleado.firstName;
-        alert(prueba);
-      $("#masnoticias").append(prueba);
-    });  
-  }*/
-
- 
