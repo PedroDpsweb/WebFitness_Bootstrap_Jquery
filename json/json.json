@@ -1,21 +1,18 @@
 {
   "noticias": [
-    {
-      "noticia": [
+    
         {
           "imagen": "img/n2.jpg",
           "titulo": "nueva noticia 1",
           "descripcion": "Insertar Descripcion",
           "htmlcomp": "de momento nada"
         }
-      ],
-      "noticia": [
+      ,
         {
           "imagen": "img/n2.jpg",
           "titulo": "nueva noticia 1",
           "descripcion": "Insertar Descripcion",
           "htmlcomp": "de momento nada"
         }
-      ]
-    }
-  ]}
+  ]
+}
