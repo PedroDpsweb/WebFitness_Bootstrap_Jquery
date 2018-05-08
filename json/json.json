@@ -1,5 +1,4 @@
-{
-  "noticias": [
+[
     
         {
           "imagen": "img/n2.jpg",
@@ -7,7 +6,13 @@
           "descripcion": "Insertar Descripcion",
           "htmlcomp": "de momento nada"
         }
-      ,
+        ,
+        {
+          "imagen": "img/n2.jpg",
+          "titulo": "nueva noticia 1",
+          "descripcion": "Insertar Descripcion",
+          "htmlcomp": "de momento nada"
+        },
         {
           "imagen": "img/n2.jpg",
           "titulo": "nueva noticia 1",
@@ -15,4 +20,3 @@
           "htmlcomp": "de momento nada"
         }
   ]
-}
