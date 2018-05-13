@@ -67,3 +67,14 @@ footer{
     margin: 20px 0;
 }
 
+.carga{
+    padding:10px 10px;
+    margin:0 10px;
+}
+.t_carga{
+    color:white;
+    margin:0;
+    position: relative;
+    left:5px;
+}
+
