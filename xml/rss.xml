@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+ <title>Noticias Salud y Fitness</title>
+ <link>https://www.w3schools.com</link>
+ <description>Free web building tutorials</description>
+ <item>
+  <title>Comida Saludable</title>
+  <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+  <description>Lorem ipsum dolor</description>
+ </item>
+ <item>
+  <title>Entrena Pesado</title>
+  <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+  <description>Lorem ipsum dolor</description>
+ </item>
+</channel>
+
+</rss>
