@@ -78,3 +78,40 @@ footer{
     left:5px;
 }
 
+
+.modal-title{
+    text-align: center;
+}
+.modal-content{
+    text-align: center;
+    
+
+}
+.modal-header{
+    background-color:#4c5054;
+    
+}
+
+.deshab{
+    background-color: red;
+    
+}
+
+.modal-content{
+    color:white;
+}
+
+.habil{
+    background-color: green;
+}
+
+.modal-footer{
+    background-color:#4c5054;
+    
+}
+
+.modal-body p{
+    margin:0;
+    font-size: 15px;
+}
+
