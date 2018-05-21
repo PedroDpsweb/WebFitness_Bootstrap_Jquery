@@ -1,6 +1,7 @@
 body{
     height:100%;
     background-color: #25292d;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 slider{
     height: 50%;
@@ -13,7 +14,7 @@ slider{
     position: absolute;
     top:40%;
     left:42%;
-    font-family: 'Sonsie One', cursive;
+    font-family: 'Wallpoet', cursive;
 
     
 }
@@ -32,18 +33,13 @@ slider{
     height: 25%;
 }
 
-.principal img{
-    
-    
-}
+
 .secundario{
     margin:10px 0;
     height: 15%;
 }
 
-.secundario img{
-   
-}
+
 
 footer{
     color:white;
@@ -52,9 +48,7 @@ footer{
     
 }
 
-.miniatura{
-    
-}
+
 
 .desc{
     height: 80%;
