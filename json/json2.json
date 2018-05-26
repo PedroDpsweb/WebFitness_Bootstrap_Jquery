@@ -1,22 +1,22 @@
 [
     
   {
-    "imagen": "img/n2.jpg",
-    "titulo": "JSon4",
-    "descripcion": "Insertar Descripcion",
+    "imagen": "img/njs4.jpg",
+    "titulo": "Calistenia",
+    "descripcion": "Un gran deporte que cuenta con una enorme popularidad. Es una alternativa perfecta para aquellas personas a las que no les gusta estar encerrados en un gimnasio y prefieren estar al aire libre , en un ambiente más social y mucho más barato siempre y cuando seas autodidácta.",
     "htmlcomp": "de momento nada"
   }
   ,
   {
-    "imagen": "img/n2.jpg",
-    "titulo": "Json5",
-    "descripcion": "Insertar Descripcion",
+    "imagen": "img/njs5.jpg",
+    "titulo": "Maximizar hipertrofia",
+    "descripcion": "Te contamos las claves para aumentar tu masa muscular de manera más rápida. Las mejores rutinas, los mejores ejercicios y los secretos de una dieta perfecta para crecer seas del somatotipo que seas (incluso si siempre has sido deslgado).",
     "htmlcomp": "de momento nada"
   },
   {
-    "imagen": "img/n2.jpg",
-    "titulo": "Json6",
-    "descripcion": "Insertar Descripcion",
+    "imagen": "img/njs6.jpg",
+    "titulo": "¡ Que no te vendan la moto !",
+    "descripcion": "No aspires a cuerpos que no son naturales. Los cuerpos gigantescos que se han normalizado a día de hoy se consiguen a base de esteroides, por eso conviene que antes de aspirar a cierto físico, sepas si puedes conseguirlo de manera natural o utilizando sustancias dopantes.",
     "htmlcomp": "de momento nada"
   }
 ]
