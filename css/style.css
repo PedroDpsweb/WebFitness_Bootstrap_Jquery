@@ -135,6 +135,14 @@ footer{
     }
     
   }
+  @media (max-width: 720px) {
+    
+    #popup p{
+        font-size: 20px;
+        
+    }
+    
+  }
 
 
 
