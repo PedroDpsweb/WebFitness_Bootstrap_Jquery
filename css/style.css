@@ -121,5 +121,20 @@ footer{
     color:white;
 }
 
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+@media (max-width: 320px) {
+    
+    .divpubli{
+        height: 100px;
+        width: 280px;
+        
+    }
+    
+  }
+
 
 
