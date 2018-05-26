@@ -111,8 +111,8 @@ carga1:false;
 
         carga1=false;
 
-
-        $.getJSON("https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/e125e4d7/json/json.json", function (json) {
+        //json1
+        $.getJSON("https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/4b44d6d2/json/json.json", function (json) {
 
             console.log(json);
             $.each(json, function (i, noticia) {
@@ -148,8 +148,8 @@ carga1:false;
     function cargado2() {
 
         carga2=false;
-
-        $.getJSON("https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/37bfa21e/json/json2.json", function (json) {
+        //json2
+        $.getJSON("https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/e8232584/json/json2.json", function (json) {
 
             console.log(json);
             $.each(json, function (i, noticia) {
