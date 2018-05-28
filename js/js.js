@@ -15,7 +15,7 @@ $(function () {
                     cargado2();
                 } else if (carga2 == false) {
 
-                    $(".cargamas").css("display", "none");
+                    $(".cargamas").html('<button type="button" class="btn btn-default" data-dismiss="modal">No hay mas noticias</button>');
 
                 }
 
@@ -29,7 +29,7 @@ $(function () {
                 cargado1();
             } else if (carga2 == true) {
                 cargado2();
-                $(".cargamas").css("display", "none");
+                $(".cargamas").html("no hay mas noticias");
             }
 
             
@@ -119,6 +119,8 @@ $(function () {
     //coso
 
 
+
+    
     function cargado1() {
 
         carga1 = false;
