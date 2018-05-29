@@ -115,31 +115,22 @@ footer{
     text-align: center;
     margin:0 auto;
     margin-bottom: 12px;
+    overflow: hidden;
 }
 
 .webs{
     color:white;
 }
 
-.footer{
-    position: fixed;
-    bottom: 0px;
+.iframepubli{
+    overflow: hidden;
 }
 
-.noticia{
-    text-align: justify;
+
+.read{
+    
 }
 
-.volver a{
-    background-color: cornflowerblue;
-    padding:0 20px;
-    color:white;
-    margin-bottom:10px;
-}
-
-.redes{
-    font-size:30px;
-}
 
 @media (max-width: 320px) {
     
