@@ -18,6 +18,9 @@ slider{
 
     
 }
+p{
+    text-align: justify;
+}
 
 .portada{
     margin:30px;
