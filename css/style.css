@@ -115,22 +115,26 @@ footer{
     text-align: center;
     margin:0 auto;
     margin-bottom: 12px;
-    overflow: hidden;
 }
 
 .webs{
     color:white;
 }
 
-.iframepubli{
-    overflow: hidden;
-}
+
 
 
 .read{
     
 }
 
+iframe{
+    overflow: hidden;
+}
+
+.fab{
+    font-size:30px;
+}
 
 @media (max-width: 320px) {
     
