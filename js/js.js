@@ -1,8 +1,4 @@
-var json1 = "https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/4b44d6d2/json/json.json"
-var json2 = "https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/e8232584/json/json2.json"
-//aqui definimos todos los json que habrá
-var lista_json = [json1, json2]
-//lista de json que usaremos
+
 var carga_json = 0
 //numero de json cargados
 var activado = true;
@@ -81,7 +77,7 @@ $(function () {
     //--------------------------------------------------------------------------------------------------//
 
     function carga(posicion) {
-        $.getJSON(lista_json[posicion], function (json) {
+        $.getJSON("https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/4b44d6d2/json/json"+posicion+".json", function (json) {
 
             console.log(json);
             $.each(json, function (i, noticia) {
