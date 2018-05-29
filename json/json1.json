@@ -1,26 +1,22 @@
 [
     
-        {
-          "imagen": "img/n2.jpg",
-          "titulo": "JSon1",
-          "descripcion": "No hay nada mas importante que sentirse bien con uno mismo.
-          Aquí encontrarás multitud de blogs dedicados a mejorar tu salud, tu condición física y mental, y muchísimos tips para que construyas esa vida saludable y feliz que tanto persigues.",
-          "htmlcomp": "de momento nada"
-        }
-        ,
-        {
-          "imagen": "img/n2.jpg",
-          "titulo": "Json2",
-          "descripcion": "Insertar Descripcion",
-          "htmlcomp": "No hay nada mas importante que sentirse bien con uno mismo.
-          Aquí encontrarás multitud de blogs dedicados a mejorar tu salud, tu condición física y mental, y muchísimos tips para que construyas esa vida saludable y feliz que tanto persigues.",
-          "htmlcomp": "de momento nada"
-        },
-        {
-          "imagen": "img/n2.jpg",
-          "titulo": "Json3",
-          "descripcion": "No hay nada mas importante que sentirse bien con uno mismo.
-          Aquí encontrarás multitud de blogs dedicados a mejorar tu salud, tu condición física y mental, y muchísimos tips para que construyas esa vida saludable y feliz que tanto persigues.",
-          "htmlcomp": "de momento nada"
-        }
-  ]
+  {
+    "imagen": "img/n2.jpg",
+    "titulo": "JSon4",
+    "descripcion": "Insertar Descripcion",
+    "htmlcomp": "de momento nada"
+  }
+  ,
+  {
+    "imagen": "img/n2.jpg",
+    "titulo": "Json5",
+    "descripcion": "Insertar Descripcion",
+    "htmlcomp": "de momento nada"
+  },
+  {
+    "imagen": "img/n2.jpg",
+    "titulo": "Json6",
+    "descripcion": "Insertar Descripcion",
+    "htmlcomp": "de momento nada"
+  }
+]
