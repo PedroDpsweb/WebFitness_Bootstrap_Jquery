@@ -15,6 +15,9 @@ Añadidos margenes bajo los iconos y se ha subido el font-size de los iconos has
 - **Text align justify**
 
 He justificado los textos para que queden mejor
+- **Nombre de noticias y nombre de Html no coincidían**
+
+He cambiado los nombres d elos html para que coincidan con los h1 de cada noticia
 - **Cambio en JS**
 
 Rediseño de TODO el JS ya que estaba hecho de una manera muy poco profesional.
