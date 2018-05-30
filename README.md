@@ -40,3 +40,4 @@ En la parte móvil se ha ajustado el esquema a como boostrap dispone las celdas 
 - Una vez cargado todo aparece indicado que no hay más noticias donde estaba le botón en la parte inferior.
 - La publicidad es un iframe con un slider. Cada foto envía a una web diferente, pertenecientes a los trabajos de los compañeros.
 - En el footer aparece una referencia al creador de la web.
+- En cada noticia hay contenido real sobre su tema y un video explicativo bastante interesante.
