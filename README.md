@@ -1,7 +1,19 @@
 # WebNoticiasPedoSanchez
-Web con noticias sobre salud,nutrición y deporte.
-
+DAW1 
+Lenguaje de Marcas
+Pedro José Sánchez Martínez
 # Correcciones del profesor
+- **Mensaje de no hay mas noticias**
+He incorporado un cambio en el botón para que se vea claramente que no hay más noticias
+- **Enlaces en los < h1 >**
+He cambiado los enlaces que había en leer mas y en en la imagen y ahora están en el < h2 > de cada noticia, los cuales corresponeden al titulo en su respectivo html
+- **Mas márgenes, icónos mas grandes**
+Añadidos margenes bajo los iconos y se ha subido el font-size de los iconos hasta 50px
+- **Text align justify**
+He justificado los textos para que queden mejor
+- **Cambio en JS**
+Rediseño de TODO el JS ya que estaba hecho de una manera muy poco profesional.
+He encapsulado las funciones para que cada uno realice solo una tarea, simplificando el código y evitando repetirlo en exceso.
 # Diseños iniciales y finales
 
 ## Diseño Inicial
