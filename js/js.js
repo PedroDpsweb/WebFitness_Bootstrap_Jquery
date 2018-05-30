@@ -77,7 +77,11 @@ $(function () {
     //--------------------------------------------------------------------------------------------------//
 
     function carga(posicion) {
-        $.getJSON("https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/4b44d6d2/json/json"+posicion+".json", function (json) {
+        var json0="https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/31037c08/json/json0.json"
+        var json1="https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/e6443d86/json/json1.json"
+        var lista_json=[json0,json1]
+        $.getJSON(lista_json[posicion], function (json) {
+        //$.getJSON("https://cdn.rawgit.com/PedroDpsweb/WebNoticiasPedoSanchez/f33c4f80/json/json"+posicion+".json", function (json) {
 
             console.log(json);
             $.each(json, function (i, noticia) {
@@ -85,13 +89,20 @@ $(function () {
                 var imagen = noticia.imagen;
                 var desc = noticia.descripcion;
 
-                $("#masnoticias").append('"<div class="row "><div class="col-sm-4 miniatura"><a href="not-cardio.html"><img class="img-fluid " src=' + imagen + ' class="rounded " alt="Cinque Terre "></a></div><div class="col-sm-8" style="background-color:silver; "><div class="desc"><h2>' + titulo + '</h2><p>' + desc + '</p></div><div class="row"><div class="col-sm-4 text center"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></i></a><a href="#"><i class="fab fa-twitter-square fa-2x"></i></i></a><a href="#"><i class="fab fa-google-plus-square fa-2x"></i></i></a></div></div></div></div>"');
-            });
-        });
+                //$("#masnoticias").append('"<div class="row "><div class="col-sm-4 miniatura"><a href="#"><img class="img-fluid " src=' + imagen + ' class="rounded " alt="Cinque Terre "></a></div><div class="col-sm-8" style="background-color:silver; "><div class="desc"><h2>' + titulo + '</h2><p>' + desc + '</p></div><div class="row"><div class="col-sm-4 text center"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></i></a><a href="#"><i class="fab fa-twitter-square fa-2x"></i></i></a><a href="#"><i class="fab fa-google-plus-square fa-2x"></i></i></a></div></div></div></div>"');
+                $("#masnoticias").append('"<div class="row"><div class="col-sm-4 text-center"><a href="#"><img class="img-fluid rounded" src='+imagen+'></a></div><div class="col-sm-8" style="background-color:silver;"><div class="desc"><a class="read" href="#"><h2>'+titulo+'</h2></a><p>'+desc+'</p></div><div class="row"><div class="col-sm-4 text center dredes"><a href="#"><i class="fab fa-facebook-square redes"></i></a><a href="#"><i class="fab fa-twitter-square redes"></i></a><a href="#"><i class="fab fa-google-plus-square redes"></i></a></div></div></div></div>"');
 
-        if (posicion == (lista_json.length - 1)) {
+            });
+
+            /*
+            <div class="row"><div class="col-sm-4 text-center"><a href="not-comida.html"><img class="img-fluid rounded" src='+imagen+'></a></div><div class="col-sm-8" style="background-color:silver;"><div class="desc"><a class="read" href="not-comida.html"><h2>+titulo+</h2></a><p>'+descripcion+'</p></div><div class="row"><div class="col-sm-4 text center"><a href="#"><i class="fab fa-facebook-square redes"></i></a><a href="#"><i class="fab fa-twitter-square redes"></i></a><a href="#"><i class="fab fa-google-plus-square redes"></i></a></div></div></div></div>
+            */
+            
+        });
+        if (posicion == (lista_json.length-1)) {
             todo_cargado = true;
         }
+        
 
         
     }

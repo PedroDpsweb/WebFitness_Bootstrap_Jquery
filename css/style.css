@@ -20,6 +20,7 @@ slider{
 }
 p{
     text-align: justify;
+    margin-bottom: 2em;
 }
 
 .portada{
@@ -34,6 +35,7 @@ p{
 
 .principal{
     height: 25%;
+    
 }
 
 
@@ -136,7 +138,13 @@ iframe{
 }
 
 .fab{
-    font-size:30px;
+    font-size:50px;
+    line-height:1; 
+    padding-right: 15px;
+}
+
+.dredes{
+    bottom:15px;
 }
 
 @media (max-width: 320px) {
